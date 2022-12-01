@@ -1,0 +1,10 @@
+Wendy has developed an application that calculates and displays the net
+payable salary, the application calculates the HRA, the special allowance,
+and the PF deduction. You have been asked to test the function that calculates
+the net salary and verify whether the expected net salary matches the actual
+net salary.
+
+If a test case fails, an appropriate human-readable error message should be
+displayed.
+
+How will Wendy accomplish this task???

@@ -1,0 +1,19 @@
+Consider a scenario where you are developing a Library Management System.
+In this application you have created an interface, IBookDAO, which contains
+the method declaration to connect to a database, save book details, update
+the details of an existing book, and delete an existing book.
+Further, you have created the BookDAO class, which implements the IBookDAO
+Interface.
+However, this class does not implement the required logic.
+
+To represent a book entity in the application, you have created the Book
+class with various properties such as title, author, and publication.
+Further, you have created the BookManager class, which can create an
+instance of the Book class. The BookManager class contains the methods for
+saving book details, updating the details of an existing book, and deleting
+an existing book. These methods call the methods of the BookDAO class to
+perform respective tasks. Now, you have to test the functionality of the
+methods available in the BookManager class by creating a stub for the
+BookDAO class.
+
+How will you accomplish this task???

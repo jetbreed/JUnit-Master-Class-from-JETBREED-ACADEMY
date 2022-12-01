@@ -1,0 +1,21 @@
+Ferguson has been asked to create a Password Generator Application for
+a bank. The application generates a unique password by combining the first
+three letters of a customer's name with some random characters and numbers.
+For example, if the name of the customer is Jame Hodge, the password can be
+Jam#$%, Jam56$, Jam#$%645, or Jam#r$5.
+
+For this, Ferguson has developed an application that contains a method to
+generate the unique password. This method takes two strings as its
+parameters and concatenates them. The first parameter accepts the first three
+letters of the customer's name, and the second parameters accepts the
+random characters and numbers.
+
+Ferguson needs to test the consistency of this application by creating a
+test case that accepts the following types of values:
+>>> Combination of characters and numbers.
+>>> Combination of characters and special characters.
+>>> Combination of characters, special characters, and numbers.
+
+However, you have to execute a single test case for the preceding set of
+values.
+Help Ferguson achieve this task????

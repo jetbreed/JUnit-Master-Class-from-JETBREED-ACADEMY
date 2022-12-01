@@ -1,0 +1,24 @@
+USING MOCKITO
+------------------
+Consider a scenario where you are working on a module of a shopping application.
+
+In this application you have created the
+ ???>>>ShoppingItem class (Model Class) to represent an item
+that can be shopped.
+
+In addition, you have created the
+???>>>MyShoppingCart class that --- helps adding items to the shopping cart
+during shopping.
+
+This class contains a
+method to calculate the total price of the items added to the cart.
+
+The method that calculate the total price of items added to the cart calls the
+>>> getPrice()
+method of the MyStore service by passing the name of each item. Now, you have
+to test all the functionality of the methods iin the MyShoppingCart class.
+However, you do not have access to MyStore service. Therefore, you have to mock
+the behaviour of the getPrice() method of this service to test the functionality
+of the methods available in the MyShoppingCart class.
+
+How will you accomplish the preceding task by using the Mockito Framework???
