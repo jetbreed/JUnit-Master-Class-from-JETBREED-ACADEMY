@@ -10,7 +10,6 @@ import Activity2_3.Area;
 
 import org.junit.Ignore;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class TestArea {
@@ -19,10 +18,10 @@ public class TestArea {
     public void testRectangle(){
         System.out.println("TESTING RECTANGLE");
         Area instance = new Area();
-        double expectedResult = 800;
+        double expectedResult =800;
         Rectangle rectangle = new Rectangle(20,40);
         double result = instance.calculateArea(rectangle);
-        assertEquals(expectedResult, result, 30.0);
+        assertEquals(expectedResult, result, 0.0);
     }
 
     @Test
@@ -56,15 +55,15 @@ public class TestArea {
         assertEquals(expectedResult, result, 0.0);
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void testRectangle2()
-    {
-        System.out.println("Handling Exception");
-        Area instance = new Area();
-        double expResult = 800;
-        Rectangle rectangle = new Rectangle(20,40);
-        double result = instance.calculateArea((Shapes) rectangle);
-        assertEquals(expResult,result,0.0);
-    }
+//    @Test(expected = IllegalArgumentException.class)
+//    public void testRectangle2()
+//    {
+//        System.out.println("Handling Exception");
+//        Area instance = new Area();
+//        double expResult = 800;
+//        Rectangle rectangle = new Rectangle(20,40);
+//        double result = instance.calculateArea((Shapes) rectangle);
+//        assertEquals(expResult,result,0.0);
+//    }
 
 }

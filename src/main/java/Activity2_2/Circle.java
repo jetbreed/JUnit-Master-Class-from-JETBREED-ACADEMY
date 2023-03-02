@@ -11,7 +11,8 @@ public class Circle implements Shapes {
 
     @Override
     public void draw() {
-        System.out.println("Drawing a Circle with radius "+radius+" cm");
+        System.out.println("Drawing a Circle with " +
+                "radius "+radius+" cm");
     }
 
     public void setRadius(double newRadius) {

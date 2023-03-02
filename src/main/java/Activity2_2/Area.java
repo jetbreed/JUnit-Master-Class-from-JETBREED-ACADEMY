@@ -1,5 +1,4 @@
 package Activity2_2;
-
 public class Area {
     public double calculateArea(Shapes shape)
     {
@@ -21,6 +20,12 @@ public class Area {
             area = square.getLength() * square.getLength();
 //            area = Math.pow(square.getLength(),2);
         }
+        else if (shape instanceof Triangle)
+        {
+            Triangle triangle = (Triangle) shape;
+            area = ((triangle.getBase() * triangle.getHeight()))/2;
+//            area = Math.pow(square.getLength(),2);
+        }
         return area;
     }
 
@@ -30,6 +35,7 @@ public class Area {
         Rectangle rectangle = new Rectangle(20, 40);
         Circle circle = new Circle(15);
         Square square = new Square(35);
+        Triangle triangle = new Triangle(40,20);
 
         Area areaObject = new Area();
         System.out.println("Area of a Square is: "
@@ -38,5 +44,7 @@ public class Area {
                 + areaObject.calculateArea(rectangle));
         System.out.println("Area of a Circle is: "
                 + areaObject.calculateArea(circle));
+        System.out.println("Area of a Circle is: "
+                + areaObject.calculateArea(triangle));
     }
 }
