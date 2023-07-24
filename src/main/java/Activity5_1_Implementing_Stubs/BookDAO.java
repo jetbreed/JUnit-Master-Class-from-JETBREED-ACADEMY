@@ -6,7 +6,26 @@ package Activity5_1_Implementing_Stubs;
 public class BookDAO implements IBookDAO{
     @Override
     public boolean saveBookDetails(Book newBook) {
-        return true;
+//        return true;
 //        throw new NotImplementedException();
+//        connect to the database
+//        locate the table in the database
+//        save(table);
+        return true;
+    }
+
+    @Override
+    public boolean updateBookDetails(Book newBook) {
+        return false;
+    }
+
+    @Override
+    public boolean viewBookDetails(Book newBook) {
+        return false;
+    }
+
+    @Override
+    public boolean deleteBookDetails(Book newBook) {
+        return false;
     }
 }

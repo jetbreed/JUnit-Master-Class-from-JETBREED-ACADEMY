@@ -1,10 +1,10 @@
-Promise has been asked to modify the Area Calculator Application by adding an
-additional functionality the Area of a Parallelogram.
+Promise has been asked to modify the Area of Calculator Application by adding
+an additional functionality the Area of a Parallelogram.
 
 You have been asked to create a test case to test the functionality of this new
 method. However, the coding of this new method is not yet complete, therefore,
-you need to avoid the testing of test cases created for this method while running
-the test class.
+you need to avoid the testing of the test case(s) created for this method
+while running the test class.
 
 Additionally, you have been asked to create a test case to check the exception in
 case a negative value is passed as input while calculating the area of a rect-

@@ -22,17 +22,17 @@ public class SalaryCalculator {
         grossSalary = basicSalary + hra + specialAllowance;
         netPayableSalary = basicSalary + hra + specialAllowance - pf;
 
-        System.out.println("Basic Salary        = " + basicSalary);
-        System.out.println("HRA                 = " + hra);
-        System.out.println("Special Allowance   = " + specialAllowance);
-        System.out.println("_____________________________________");
-        System.out.println("Gross Salary        = " + grossSalary);
-        System.out.println("_____________________________________");
-        System.out.println("Deductions:");
-        System.out.println("PF                  = " + pf);
-        System.out.println("_____________________________________");
-        System.out.println("Net Payable Salary  = " + netPayableSalary);
-        System.out.println("_____________________________________");
+//        System.out.println("Basic Salary        = " + basicSalary);
+//        System.out.println("HRA                 = " + hra);
+//        System.out.println("Special Allowance   = " + specialAllowance);
+//        System.out.println("_____________________________________");
+//        System.out.println("Gross Salary        = " + grossSalary);
+//        System.out.println("_____________________________________");
+//        System.out.println("Deductions:");
+//        System.out.println("PF                  = " + pf);
+//        System.out.println("_____________________________________");
+//        System.out.println("Net Payable Salary  = " + netPayableSalary);
+//        System.out.println("_____________________________________");
 
         return netPayableSalary;
     }

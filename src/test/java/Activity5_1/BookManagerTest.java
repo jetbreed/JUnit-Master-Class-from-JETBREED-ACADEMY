@@ -19,10 +19,11 @@ public class BookManagerTest {
         BookManager bookManager = new BookManager(stubBookDAO);
 //        BookManager bookManager1 = new BookManager(bookDAO);
 
-        boolean result = bookManager
-                .save(new Book("112345", "Programming in Java",
+        Book newBook = new Book("", "Programming in Java",
                 Arrays.asList("Andrew", "Ferguson"), "New Publication",
-                2022));
+                2022);
+        boolean result = bookManager.save(newBook);
+
         Assert.assertEquals(true, result);
     }
 

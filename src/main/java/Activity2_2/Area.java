@@ -16,6 +16,7 @@ public class Area {
         }
         else if (shape instanceof Square)
         {
+//            Polymorphism
             Square square = (Square) shape;
             area = square.getLength() * square.getLength();
 //            area = Math.pow(square.getLength(),2);

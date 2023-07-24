@@ -1,6 +1,7 @@
 package Activity3_3;
 
 import Activity3_3_Implementing_Hamcrest_Matcher.SalaryCalculator;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -18,6 +19,7 @@ public class HamcrestTest {
         assertThat(result, equalTo(8520));
     }
 
+    @Ignore
     @Test
     public void testNetSalary2(){
         SalaryCalculator salaryCalculator = new SalaryCalculator();

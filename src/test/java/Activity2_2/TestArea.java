@@ -52,7 +52,17 @@ public class TestArea {
         double expectedResult = 84904.1088;
         Parallelogram parallelogram = new Parallelogram(210.56,403.23);
         double result = instance.calculateArea((Shapes) parallelogram);
-        assertEquals(expectedResult, result, 0.0);
+        assertEquals("Passed",expectedResult, result, 0.0);
+    }
+
+//    @Ignore
+    @Test
+    public void testingSquare(){
+        double expectedResult = 4;
+        Area area = new Area();
+        Square square = new Square(2);
+        double squareResult = area.calculateArea(square);
+        assertEquals("Area Testing", expectedResult, squareResult, 0.0);
     }
 
 //    @Test(expected = IllegalArgumentException.class)

@@ -1,7 +1,9 @@
 
+             ---TEST SUITE---
+
 Chommy, a Software Developer, has developed a Java Application to calculate
 the area of a Circle, Rectangle, and Square. Each set of functionality, such
-as area of rectangle, circle and square, has been implememented in separate
+as area of rectangle, circle and square, has been implemented in separate
 Java class files.
 Now, she needs to test this application to verify its functionality. While
 writing test cases, she needs to create a test class for each Java class.

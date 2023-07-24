@@ -1,4 +1,4 @@
-package Activity2_1;
+package Activity1.Activity2_1;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

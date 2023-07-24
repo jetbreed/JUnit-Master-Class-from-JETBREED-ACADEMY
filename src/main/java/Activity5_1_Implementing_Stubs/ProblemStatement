@@ -3,8 +3,7 @@ In this application you have created an interface, IBookDAO, which contains
 the method declaration to connect to a database, save book details, update
 the details of an existing book, and delete an existing book.
 Further, you have created the BookDAO class, which implements the IBookDAO
-Interface.
-However, this class does not implement the required logic.
+Interface. However, this class does not implement the required logic.
 
 To represent a book entity in the application, you have created the Book
 class with various properties such as title, author, and publication.

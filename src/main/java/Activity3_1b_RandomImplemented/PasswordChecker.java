@@ -1,7 +1,24 @@
-package Activity3_1_Creating_Parameterized_Tests;
+package Activity3_1b_RandomImplemented;
+
+import java.nio.Buffer;
+import java.util.Random;
 
 public class PasswordChecker {
-    public String combineString(String custName, String randChars){
+    public String combineString(String custName){
+//        StringBuilder randChars;
+
+        String randnumbers = "1234567890";
+
+        int numLength = randnumbers.length();
+        Random randomNum = new Random();
+
+        String rander;
+        StringBuilder randChars = new StringBuilder(300);
+
+        for(int i = 0; i < 4; i++)
+        {
+            randChars.append(randnumbers.charAt(randomNum.nextInt(numLength)));
+        }
 
         String newCustName;
         if(custName.length() > 3) {
@@ -28,7 +45,7 @@ class TestPass{
     public static void main(String[] args) {
         PasswordChecker passwordChecker = new PasswordChecker();
         String printPass = passwordChecker
-                .combineString("Samuel", "23%&$");
+                .combineString("Ur");
 
         System.out.println(printPass);
     }
