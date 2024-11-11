@@ -1,14 +1,16 @@
 
              ---TEST SUITE---
 
-Chommy, a Software Developer, has developed a Java Application to calculate
-the area of a Circle, Rectangle, and Square. Each set of functionality, such
-as area of rectangle, circle and square, has been implemented in separate
-Java class files.
-Now, she needs to test this application to verify its functionality. While
-writing test cases, she needs to create a test class for each Java class.
+I Covenant, a Software Developer, has developed a Java
+Application to calculate the area of a Circle, Rectangle,
+and Square. Each set of functionality, such as area of
+rectangle, circle and square, has been implemented in separate
+Java class files. Now, she needs to test this application to
+verify its functionality. While writing test cases, she
+needs to create a test class for each Java class.
 
-After testing each of the classes, she needs to test the entire application
-for its stability by executing all the test classes together.
+After testing each of the classes, she needs to test the
+entire application for its stability by executing all
+the test classes together.
 
-Help Chommy to accomplish this task????
+Help me to accomplish this task????

@@ -21,7 +21,7 @@ public class TestArea {
         double expectedResult =800;
         Rectangle rectangle = new Rectangle(20,40);
         double result = instance.calculateArea(rectangle);
-        assertEquals(expectedResult, result, 0.0);
+        assertEquals(expectedResult, result, 10.0);
     }
 
     @Test

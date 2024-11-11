@@ -45,7 +45,7 @@ public class Area {
                 + areaObject.calculateArea(rectangle));
         System.out.println("Area of a Circle is: "
                 + areaObject.calculateArea(circle));
-        System.out.println("Area of a Circle is: "
+        System.out.println("Area of a Triangle is: "
                 + areaObject.calculateArea(triangle));
     }
 }

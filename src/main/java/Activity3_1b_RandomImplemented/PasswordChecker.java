@@ -4,7 +4,8 @@ import java.nio.Buffer;
 import java.util.Random;
 
 public class PasswordChecker {
-    public String combineString(String custName){
+    public String combineString(String custName)
+    {
 //        StringBuilder randChars;
 
         String randnumbers = "1234567890";
@@ -13,11 +14,13 @@ public class PasswordChecker {
         Random randomNum = new Random();
 
         String rander;
-        StringBuilder randChars = new StringBuilder(300);
+        StringBuilder randChars =
+                new StringBuilder(300);
 
         for(int i = 0; i < 4; i++)
         {
-            randChars.append(randnumbers.charAt(randomNum.nextInt(numLength)));
+            randChars.append(randnumbers.charAt(randomNum.
+                    nextInt(10)));
         }
 
         String newCustName;

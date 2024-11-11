@@ -13,7 +13,13 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -22,8 +28,8 @@
     <groupId>org.jetbreed</groupId>
     <artifactId>JUnitTestables</artifactId>
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>23.0.1</maven.compiler.source>
+        <maven.compiler.target>23.0.1</maven.compiler.target>
     </properties>
 
 </project>

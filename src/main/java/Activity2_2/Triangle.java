@@ -2,13 +2,14 @@ package Activity2_2;
 
 public class Triangle implements Shapes{
     private int base;
+    private int height;
+
+
 
     @Override
     public void draw() {
 
     }
-
-    private int height;
 
     public Triangle(int base, int height) {
         this.base = base;
